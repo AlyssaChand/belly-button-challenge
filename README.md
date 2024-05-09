@@ -41,4 +41,12 @@ Here are the steps I did to achieve this:
 1. Update charts and metadata by calling buildCharts(newSample) and buildMetadata(newSample) functions.
 2. The init() function is called to initialize the dashboard when the webpage loads.
 
+### CSS Styling
+
+To achieve consistency with the image for Demographic Info provided in the module instructions, I added css styling in the HTML file.
+
+1. .card-primary: This selector sets the border color of the card containing demographic information to a shade of steel blue.
+2. .card-primary .card-header: This selector sets the background color of the card header to steel blue and the text color to white.
+
+
 
