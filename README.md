@@ -14,3 +14,16 @@ Here are the steps I did to achieve this:
 3. Select the HTML panel where the metadata will be displayed.
 4. Clear any existing metadata in the panel.
 5. Append new HTML tags for each key-value pair in the filtered metadata, displaying them in uppercase format.
+
+### Building Charts
+
+1. Retrieve sample data from the JSON file.
+2. Filter the sample data for the desired sample.
+3. Extract `otu_ids`, `otu_labels`, and `sample_values` from the filtered sample object.
+4. Build a Bubble Chart using the extracted data.
+5. Define the layout for the Bubble Chart.
+6. Render the Bubble Chart.
+7. Prepare data for a Bar Chart by selecting the top 10 bacteria cultures found.
+8. Build a Bar Chart using the prepared data.
+9. Define the layout for the Bar Chart.
+10. Render the Bar Chart.
