@@ -28,10 +28,17 @@ Here are the steps I did to achieve this:
 9. Define the layout for the Bar Chart.
 10. Render the Bar Chart.
 
-### Initializing the Dashboard
+### Run on Page Load
 
 1. Retrieve sample names data from the JSON file.
 2. Select the dropdown element where sample names will be displayed.
 3. Populate the dropdown options with sample names.
 4. Get the name of the first sample from the list.
 5. Build charts and metadata panel with the data of the first sample.
+
+### Event Listener and Dashboard Initialization
+
+1. Update charts and metadata by calling buildCharts(newSample) and buildMetadata(newSample) functions.
+2. The init() function is called to initialize the dashboard when the webpage loads.
+
+
